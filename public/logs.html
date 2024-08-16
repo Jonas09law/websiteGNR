@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button class="menu-toggle">☰</button>
+        <nav class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <button class="expand-button">Chats</button>
+                    <ul class="submenu">
+                        <li><a href="#" data-type="Mensagem">Logs de Mensagens</a></li>
+                        <li><a href="#" data-type="Mensagem Deletada">Logs de Mensagens Deletadas</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="expand-button">Chamadas</button>
+                    <ul class="submenu">
+                        <li><a href="#" data-type="Entrada em Chamada">Logs de Entrada em Chamada</a></li>
+                        <li><a href="#" data-type="Saída de Chamada">Logs de Saída de Chamada</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="expand-button">Canais</button>
+                    <ul class="submenu">
+                        <li><a href="#" data-type="Canal Criado">Logs de Canais Criados</a></li>
+                        <li><a href="#" data-type="Canal Excluído">Logs de Canais Excluídos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="expand-button">Cargos</button>
+                    <ul class="submenu">
+                        <li><a href="#" data-type="Cargo Adicionado">Logs de Cargos Adicionados</a></li>
+                        <li><a href="#" data-type="Cargo Removido">Logs de Cargos Removidos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main class="content">
+            <header>
+                <h1 id="page-title">Logs</h1>
+            </header>
+            <table id="logs-table">
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>Detalhes</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
